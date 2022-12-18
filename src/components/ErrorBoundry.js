@@ -1,6 +1,6 @@
-import React, {Componenet} from "react";
+import React, {Component} from "react";
 
-class ErrorBoundry extends Componenet{
+class ErrorBoundry extends Component{
     constructor(props){
         super(props);
         this.state = {
